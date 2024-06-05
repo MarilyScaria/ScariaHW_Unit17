@@ -31,6 +31,7 @@
   .topnav {
     overflow: hidden;
     background-color: #333;
+    width: 100%;
   }
   
   /* Style the topnav links */
@@ -54,7 +55,31 @@
   .leftcolumn {   
     float: left;
     width: 75%;
+
   }
+  .leftcolumn img{
+    width: auto; height: 200px;
+    margin-left: 5%;
+    display: flex;
+    align-items: left;
+
+   
+    }
+
+    .leftcolumn card{
+      display: flex;
+      align-content: center;    
+      justify-content: center;
+      align-items: center;  
+      justify-items: center;
+      padding: 13px;
+  width: 750px;
+    }
+
+    .leftcolumn p, h2, h5{
+      width: 600px;
+      margin-left: 5%;
+    }
   
   /* Right column */
   .rightcolumn {
@@ -68,63 +93,21 @@ margin-right: auto;
   .rightcolumn img{
     height: auto;
     width: auto;
-    float: inline-start;
 
   }
-
 
   
-  .rightcolumn p{
-    display: inline-block;
-    margin: auto;
-    margin-top: 25px;
-  }
-  
-  /* Fake image */
-fakeimg{
-    background-color: #aaa;
-    width: 200px; height: 200px;
-    padding: 0px;
-    overflow: hidden;
-    display: flexbox;
 
-  }
   
   /* Add a card effect for articles */
   .card {
     background-color: white;
-    padding: 40px;
-    margin-top: 0px;
+    padding: 48px;
+    margin-top: 16px;
     display: flexbox;
   }
 
-.leftcolumn img{
-width: 600px; height: 200px;
-float: inline-start;
-}
 
-
-  .socialcard{
-        background-color: rgb(2, 2, 2);
-        margin-top: 20px;
-        height: 300px;
-
-
-  }
-
-  .socialcard h3{
-color: white;
-text-align: left;  
-padding: 5px;
-}
-
-
-.icons{
-float: left;
-margin: 20px;
-
-padding: 5px;
-}
 
 
   /* Clear floats after the columns */
@@ -136,10 +119,15 @@ padding: 5px;
   
   /* Footer */
   .footer {
-    padding: 20px;
-    text-align: center;
     background: #ddd;
     margin-top: 20px;
+    display: flex;
+    align-content: center;    
+    justify-content: center;
+    align-items: center;  
+    justify-items: center;
+    padding: 13px;
+width: 100%;
   }
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
@@ -154,6 +142,6 @@ padding: 5px;
   @media screen and (max-width: 400px) {
     .topnav a {
       float: none;
-      width: 100%;
+      width: 100%;}
     }
   }
