@@ -83,7 +83,7 @@ margin-right: auto;
   /* Fake image */
 fakeimg{
     background-color: #aaa;
-    width: 200px; height: 200px;
+    width: 600px; height: 200px;
     padding: 0px;
     overflow: hidden;
     display: flexbox;
