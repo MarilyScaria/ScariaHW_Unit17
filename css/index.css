@@ -61,20 +61,27 @@
     float: left;
     width: 25%;
     background-color: #f1f1f1;
-    padding-left: 20px;
-  }
+    padding-left: 15px;
+margin-right: auto;  
+}
 
   .rightcolumn img{
     height: auto;
     width: auto;
+    float: inline-start;
+
   }
 
-  .rightcolumn photoframe{
-    height: 400px;
+
+  
+  .rightcolumn p{
+    display: inline-block;
+    margin: auto;
+    margin-top: 25px;
   }
   
   /* Fake image */
-  .fakeimg {
+fakeimg{
     background-color: #aaa;
     width: 200px; height: 200px;
     padding: 0px;
@@ -92,29 +99,33 @@
   }
 
 .leftcolumn img{
-width: 200px; height: 200px;
-justify-content: flex-start;
-
+width: 600px; height: 200px;
+float: inline-start;
 }
 
 
   .socialcard{
         background-color: rgb(2, 2, 2);
-        padding: 20px 35px;
         margin-top: 20px;
-        flex-direction: column;
-        justify-content: center;
+        height: 300px;
+
+
   }
 
   .socialcard h3{
 color: white;
-  }
-
-.socialcard img{
-    padding: 4%;
-    align-items: baseline;
-
+text-align: left;  
+padding: 5px;
 }
+
+
+.icons{
+float: left;
+margin: 20px;
+
+padding: 5px;
+}
+
 
   /* Clear floats after the columns */
   .row::after {
